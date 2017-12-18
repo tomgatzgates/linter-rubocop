@@ -8,7 +8,6 @@ import * as helpers from 'atom-linter'
 import { get } from 'request-promise'
 
 const DEFAULT_ARGS = [
-  '--cache', 'false',
   '--force-exclusion',
   '--format', 'json',
   '--display-style-guide',
